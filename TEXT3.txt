@@ -1,0 +1,55 @@
+runcell(0, 'C:/Users/nick1/Desktop/untitled0.py')
+C:\Users\nick1\Desktop\untitled0.py:37: MatplotlibDeprecationWarning: Passing non-integers as three-element position specification is deprecated since 3.3 and will be removed two minor releases later.
+  ax = fig.add_subplot(2, 20/2, idx+1, xticks=[], yticks=[])
+Net(
+  (fc1): Linear(in_features=784, out_features=512, bias=True)
+  (fc2): Linear(in_features=512, out_features=512, bias=True)
+  (fc3): Linear(in_features=512, out_features=10, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+Epoch: 1 	Training Loss: 0.798782
+Epoch: 2 	Training Loss: 0.412202
+Epoch: 3 	Training Loss: 0.370434
+Epoch: 4 	Training Loss: 0.349267
+Epoch: 5 	Training Loss: 0.335771
+Epoch: 6 	Training Loss: 0.326158
+Epoch: 7 	Training Loss: 0.318842
+Epoch: 8 	Training Loss: 0.313022
+Epoch: 9 	Training Loss: 0.308242
+Epoch: 10 	Training Loss: 0.304222
+Epoch: 11 	Training Loss: 0.300775
+Epoch: 12 	Training Loss: 0.297775
+Epoch: 13 	Training Loss: 0.295129
+Epoch: 14 	Training Loss: 0.292773
+Epoch: 15 	Training Loss: 0.290654
+Epoch: 16 	Training Loss: 0.288735
+Epoch: 17 	Training Loss: 0.286985
+Epoch: 18 	Training Loss: 0.285379
+Epoch: 19 	Training Loss: 0.283898
+Epoch: 20 	Training Loss: 0.282526
+Epoch: 21 	Training Loss: 0.281249
+Epoch: 22 	Training Loss: 0.280057
+Epoch: 23 	Training Loss: 0.278940
+Epoch: 24 	Training Loss: 0.277890
+Epoch: 25 	Training Loss: 0.276901
+Epoch: 26 	Training Loss: 0.275966
+Epoch: 27 	Training Loss: 0.275081
+Epoch: 28 	Training Loss: 0.274240
+Epoch: 29 	Training Loss: 0.273441
+Epoch: 30 	Training Loss: 0.272679
+Test Loss: 0.274001
+
+Test Accuracy of     0: 98% (963/980)
+Test Accuracy of     1: 97% (1110/1135)
+Test Accuracy of     2: 88% (918/1032)
+Test Accuracy of     3: 90% (915/1010)
+Test Accuracy of     4: 92% (910/982)
+Test Accuracy of     5: 87% (779/892)
+Test Accuracy of     6: 94% (909/958)
+Test Accuracy of     7: 92% (946/1028)
+Test Accuracy of     8: 88% (865/974)
+Test Accuracy of     9: 90% (915/1009)
+
+Test Accuracy (Overall): 92% (9230/10000)
+C:\Users\nick1\Desktop\untitled0.py:181: MatplotlibDeprecationWarning: Passing non-integers as three-element position specification is deprecated since 3.3 and will be removed two minor releases later.
+  ax = fig.add_subplot(2, 20/2, idx+1, xticks=[], yticks=[])
